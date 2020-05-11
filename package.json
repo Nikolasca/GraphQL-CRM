@@ -4,22 +4,17 @@
   "description": "App using GraphQP and Apollo Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node .",
+      "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nikolasca/GraphQL-CRM.hit.git"
   },
-  "author": "",
+  "author": "Níkolas Cardona Pizarro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nikolasca/GraphQL-CRM.hit/issues"
   },
-  "homepage": "https://github.com/Nikolasca/GraphQL-CRM.hit#readme",
-  "dependencies": {
-    "apollo-server": "^2.13.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
-  }
+  "homepage": "https://github.com/Nikolasca/GraphQL-CRM.hit#readme"
 }
