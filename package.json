@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "serve": "npm run serve"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Nikolasca/GraphQL-CRM.hit#readme",
   "dependencies": {
+    "apollo-server": "^2.13.1",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.14"
   }
