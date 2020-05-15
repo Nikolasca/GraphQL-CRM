@@ -4,8 +4,8 @@
   "description": "App using GraphQP and Apollo Server",
   "main": "index.js",
   "scripts": {
-      "start": "node .",
-      "dev": "nodemon ."
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Nikolasca/GraphQL-CRM.hit/issues"
   },
-  "homepage": "https://github.com/Nikolasca/GraphQL-CRM.hit#readme"
+  "homepage": "https://github.com/Nikolasca/GraphQL-CRM.hit#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.14"
+  }
 }
