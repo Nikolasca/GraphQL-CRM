@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Nikolasca/GraphQL-CRM.hit#readme",
   "dependencies": {
-    "apollo-server": "^2.13.1",
+    "apollo-server": "^2.25.3",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
